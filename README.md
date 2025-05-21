@@ -1,1 +1,3 @@
 # SQL-data-analysis-and-Criminal-Investigation-
+# In this project, I investigated the fictional theft using structured data and SQL. With only a few clues—the date of the crime (July 28, 2024) and the location (Humphrey Street)—I analyzed a relational database (fiftyville.db) containing records from the town of Fiftyville. By crafting layered SQL queries involving multiple tables (flights, people, crime scenes, bank transactions, etc.), I identified the thief, determined their escape destination, and uncovered their accomplice. 
+# fiftyville.db is the database of the city named Fiftyville, it contain infomation include(airports              crime_scene_reports,people atm_transactions, flights, phone_callsbakery_security_logs, interviews bank_accounts ,passengers)
