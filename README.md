@@ -1,3 +1,30 @@
 # SQL-data-analysis-and-Criminal-Investigation-
-# In this project, I investigated the fictional theft using structured data and SQL. With only a few clues—the date of the crime (July 28, 2024) and the location (Humphrey Street)—I analyzed a relational database (fiftyville.db) containing records from the town of Fiftyville. By crafting layered SQL queries involving multiple tables (flights, people, crime scenes, bank transactions, etc.), I identified the thief, determined their escape destination, and uncovered their accomplice. 
-# fiftyville.db is the database of the city named Fiftyville, it contain infomation include(airports              crime_scene_reports,people atm_transactions, flights, phone_callsbakery_security_logs, interviews bank_accounts ,passengers)
+## 🔎 Project Overview
+
+On **July 28, 2024**, the Duck was stolen from Humphrey Street in the town of Fiftyville.  
+Using only the clues (date & location) and a relational SQLite database (`fiftyville.db`), this project:
+
+1. Identifies **who** stole the Duck  
+2. Determines **which city** they fled to  
+3. Uncovers their **accomplice**
+
+All conclusions are drawn by writing layered SQL queries across multiple tables.
+
+---
+
+## 🗄 Database Schema
+
+The provided **`fiftyville.db`** contains:
+
+| Table Name                 | Description                              |
+| -------------------------- | ---------------------------------------- |
+| `people`                   | Personal records (names, IDs, etc.)      |
+| `crime_scene_reports`      | Details of crimes & locations            |
+| `flights`                  | Flight schedules & routes                |
+| `airports`                 | Airport codes & cities                   |
+| `passengers`               | Who flew on which flight                 |
+| `bank_accounts`            | Account holders & transactions           |
+| `atm_transactions`         | ATM withdrawal logs                      |
+| `phone_calls`              | Call records with timestamps             |
+| `interviews`               | Witness & suspect interviews             |
+| `bakery_security_logs`     | CCTV timestamps from Humphrey Street 
